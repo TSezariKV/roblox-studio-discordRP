@@ -1,0 +1,30 @@
+{
+  "name": "discordrp",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence for Roblox Studio",
+  "main": "helper.js",
+  "scripts": {
+    "start": "node helper.js",
+    "build": "pkg helper.js --targets node18-win-x64 --output dist/DiscordRP.exe && powershell -ExecutionPolicy Bypass -File scripts/copy-config.ps1",
+    "install-startup": "powershell -ExecutionPolicy Bypass -File scripts/install-startup.ps1",
+    "uninstall-startup": "powershell -ExecutionPolicy Bypass -File scripts/uninstall-startup.ps1",
+    "install-plugin": "powershell -ExecutionPolicy Bypass -File scripts/install-plugin.ps1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "scripts": [
+      "helper.js"
+    ],
+    "assets": [],
+    "outputPath": "dist"
+  }
+}

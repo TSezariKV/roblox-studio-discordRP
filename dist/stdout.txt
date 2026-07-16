@@ -1,0 +1,16 @@
+[5:32:01 PM] Listening on http://127.0.0.1:3847/presence
+[5:32:01 PM] Waiting for Roblox Studio… (presence stays clear until Studio heartbeats)
+[5:32:01 PM] Connected to Discord.
+[5:32:04 PM] Presence updated: Editing Build It!
+[5:32:14 PM] Presence updated: Editing Place1
+[5:32:19 PM] Presence updated: Editing Build It!
+[5:32:29 PM] Presence updated: Editing Place1
+[5:32:34 PM] Presence updated: Editing Build It!
+[5:32:44 PM] Presence updated: Editing Place1
+[5:32:50 PM] Presence updated: Editing Build It!
+[5:32:59 PM] Presence updated: Editing Place1
+[5:33:05 PM] Presence updated: Editing Build It!
+[5:33:10 PM] Presence cleared (POST /clear)
+[5:33:11 PM] Presence updated: Editing Build It!
+[5:33:13 PM] Presence cleared (POST /clear)
+[5:33:13 PM] Presence cleared (POST /clear)
