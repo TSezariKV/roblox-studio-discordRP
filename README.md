@@ -2,22 +2,28 @@
 
 Local helper that shows Discord Rich Presence while you edit in Roblox Studio.
 
+## Roblox plugin
+
+Install from the Creator Store:  
+[Rich Presence](https://create.roblox.com/store/asset/70734782627727/Rich-Presence)
+
 ## Setup
 
-1. Install dependencies, build, and install Startup + plugin:
+1. Install the [D Presence](https://create.roblox.com/store/asset/70734782627727/D-Presence) plugin in Roblox Studio.
+
+2. Install the helper (build + Startup):
 
 ```bat
 npm install
 npm run build
 npm run install-startup
-npm run install-plugin
 ```
 
 The helper installs to `%LOCALAPPDATA%\DiscordRP\` and a **hidden** `DiscordRP.vbs` launcher goes in Startup (so no console window that can kill the process when closed).
 
-2. Open Discord, then restart Roblox Studio.
+3. Open Discord, then restart Roblox Studio.
 
-**Keep only one presence plugin.** If you have both `DiscordRP.rbxmx` and `StudioDiscordPresence.lua`, delete one of them to avoid double requests / double warnings.
+**Keep only one presence plugin.** If you already have a local `StudioDiscordPresence.lua` or `DiscordRP.rbxmx`, remove it so it doesn’t conflict with the store plugin.
 
 ## If Studio says "Helper not reachable"
 
