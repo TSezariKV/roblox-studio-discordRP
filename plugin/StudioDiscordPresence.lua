@@ -14,7 +14,7 @@ local warnedHelper = false
 local function getProjectName()
 	if game.PlaceId > 0 then
 		local ok, info = pcall(function()
-			return MarketplaceService:GetProductInfo(game.PlaceId)
+			return MarketplaceService:GetProductInfoAsync(game.PlaceId)
 		end)
 		if ok and info and info.Name and info.Name ~= "" then
 			return info.Name
